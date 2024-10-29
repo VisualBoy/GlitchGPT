@@ -1,77 +1,50 @@
 # GlitchGPT
 
-* * *
+**GlitchGPT** is an advanced AI-powered chat application that leverages the OpenAI API to provide a seamless and unrestricted conversational experience. It goes beyond basic text chat by incorporating voice input/output, OCR integration, and code execution capabilities.
 
-GlitchGPT
-=========
+## I. Core Functionality & Features: (in progress)
 
-GlitchGPT is a web application powered by AI that allows users to create and explore glitch art through text-based interactions. Using the latest in natural language processing, GlitchGPT transforms textual prompts into unique glitch artworks, offering a new way to express creativity through AI.
+### Unlimited Free Messages:
 
-Features
---------
+* Utilize the OpenAI API to allow users to send and receive messages with ChatGPT.
+* **No restrictions** on the number of messages or conversations.
 
-*   **Text-to-Glitch Art**: Generate glitch art based on textual prompts provided by the user.
-*   **Interactive Interface**: User-friendly web interface for seamless interaction.
-*   **Customizable Effects**: Explore various glitch effects and styles.
-*   **Save and Share**: Save and share your glitch creations directly from the app.
-*   **Responsive Design**: Optimized for mobile and desktop experiences.
-*   **Open-Source**: Built using open-source technologies and frameworks.
+### Voice Input/Output:
 
-Getting Started
----------------
+* Integrate a speech-to-text library (e.g., Android's SpeechRecognizer or Vosk) for voice input.
+* Use a text-to-speech engine (e.g., Android's TextToSpeech) for voice output.
+* Support multiple languages, accents, and dialects (consider using language detection).
 
-To get started with GlitchGPT, follow these steps:
+TO-DO:
 
-1.  **Clone the Repository**:
-    
-    ```bash
-    git clone https://github.com/yourusername/GlitchGPT.git
-    cd GlitchGPT
-    ```
-    
-2.  **Install Dependencies**: Ensure you have Node.js and npm installed. Then, install dependencies:
-    
-    ```bash
-    npm install
-    ```
-    
-3.  **Run the Application**: Start the development server:
-    
-    ```bash
-    npm start
-    ```
-    
-    This will launch GlitchGPT on `http://localhost:3000` by default.
-    
-4.  **Explore and Create**:
-    
-    *   Navigate to `http://localhost:3000` in your web browser.
-    *   Enter a text prompt to generate glitch art.
-    *   Adjust settings and explore different glitch effects.
-    *   Save and share your glitch artworks with others.
-5.  **Contribute**:
-    
-    *   Fork and clone the repository.
-    *   Make your changes and submit a pull request.
-    *   Help improve GlitchGPT and add new features!
+### OCR Integration:
 
-Technologies Used
------------------
+* Allow image uploads from the device gallery or direct camera capture.
+* Implement an OCR library (e.g., Google ML Kit's Text Recognition API, Tesseract) to extract text from images.
+* Send the extracted text to ChatGPT for processing.
 
-*   React.js
-*   TensorFlow.js (for AI processing)
-*   HTML5 Canvas API
-*   CSS3 (for styling)
-*   Node.js (for backend server)
+### Predefined Prompts:
 
-Credits
--------
+* Include a library of predefined prompts, categorized for easy access (e.g., "Creative Writing," "Code Generation," "General Questions").
+* Feature the "ChatGPT Jailbreak" prompt and other popular options.
 
-GlitchGPT was inspired by the creativity of glitch art enthusiasts and powered by advancements in AI and web technologies.
+### RunGPT Integration:
 
-License
--------
+* Enable code execution within the app using RunGPT or a similar service.
+* Allow users to select from various programming languages.
+* Display code output and provide options to edit and re-run code.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## II. Potential Future Enhancements:
 
-* * *
+* **Conversation History:** Store and allow users to access past conversations.
+* **Customization:**  Enable users to personalize the app's appearance and behavior (e.g., themes, font sizes).
+* **Cloud Sync:**  Offer cloud storage integration to sync conversations and settings across devices.
+* **Plugin System:** Allow developers to create and integrate plugins to extend GlitchGPT's functionality.
+
+## III. Contributing:
+
+Contributions are welcome! Please feel free to submit pull requests or open issues to report bugs or suggest new features.
+
+## IV. License:
+
+This project is licensed under the [MIT License](LICENSE). 
