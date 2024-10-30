@@ -2,6 +2,8 @@
 
 **GlitchGPT** is an advanced AI-powered chat application that leverages the OpenAI API to provide a seamless and unrestricted conversational experience. It goes beyond basic text chat by incorporating voice input/output, OCR integration, and code execution capabilities.
 
+![Intefaccia principale di GlitchGPT in versione mobile](https://github.com/user-attachments/assets/a0cb2006-3f00-42f7-af20-8adccfa4a872)
+
 ## I. Core Functionality & Features: (in progress)
 
 ### Unlimited Free Messages:
@@ -15,7 +17,10 @@
 * Use a text-to-speech engine (e.g., Android's TextToSpeech) for voice output.
 * Support multiple languages, accents, and dialects (consider using language detection).
 
-TO-DO:
+
+> [!WARNING]
+> TO-DO:
+
 
 ### OCR Integration:
 
@@ -43,7 +48,8 @@ TO-DO:
 
 ## III. Installation:
 
-Edit [.env](.env) file and put you OpenAI API KEY  into placeholder:
+> [!NOTE]
+> Remenber to edit [.env](.env) file and put you OpenAI API KEY  into placeholder:
 
 ```
 VITE_OPENAI_API_KEY="INSERT_YOUR:OPENAI_API_KEY_HERE"
