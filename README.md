@@ -41,9 +41,13 @@ TO-DO:
 * **Cloud Sync:**  Offer cloud storage integration to sync conversations and settings across devices.
 * **Plugin System:** Allow developers to create and integrate plugins to extend GlitchGPT's functionality.
 
-## III. Contributing:
+## III. Installation:
 
-Contributions are welcome! Please feel free to submit pull requests or open issues to report bugs or suggest new features.
+Edit [.env](.env) file and put you OpenAI API KEY  into placeholder:
+
+```
+VITE_OPENAI_API_KEY="INSERT_YOUR:OPENAI_API_KEY_HERE"
+```
 
 ## IV. License:
 
