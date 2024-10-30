@@ -52,7 +52,7 @@
 > Remenber to edit [.env](.env) file and put you OpenAI API KEY  into placeholder:
 
 ```
-VITE_OPENAI_API_KEY="INSERT_YOUR:OPENAI_API_KEY_HERE"
+VITE_OPENAI_API_KEY="OPENAI_API_KEY"
 ```
 
 ## IV. License:
